@@ -44,7 +44,7 @@ For people new to regex, the results from the pattern above might be surprising 
 
 ## Ranges, Groups, and Quantifiers
 
-Obviously, we don't want to have to explicitly type every valid match for any search into our pattern. That would defeat the purpose. Luckily, we don't have to type every possible uppercase letter to match on uppercase letters. Instead, we can use a **_Range_** such as `[A-Z]`. This will match any uppercase letter. Ranges are always inside of square brackets. We can put many things inside of ranges at the same time, and regex will match on any of them. For instance, of if we wanted to find any uppercase letter, lowercase letter, or digit, we could use `[A-Za-z0-9]`. 
+Obviously, we don't want to have to explicitly type every valid match for any search into our pattern. That would defeat the purpose. Luckily, we don't have to type every possible uppercase letter to match on uppercase letters. Instead, we can use a **_Range_** such as `[A-Z]`. This will match any uppercase letter. Ranges are always inside of square brackets. We can put many things inside of ranges at the same time, and regex will match on any of them. For instance, if we wanted to find any uppercase letter, lowercase letter, or digit, we could use `[A-Za-z0-9]`. 
 
 
 ### Character Classes
