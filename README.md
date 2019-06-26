@@ -70,7 +70,7 @@ This pattern matches basic email addresses like 'joe@gmail.com', but not 'john.d
 
 Regex is confusing, but it gets easier. With that being said, don't worry about trying to memorize all of the different symbols and metacharacters. Instead, focus on how patterns work, and just look up the symbols when you need them. The internet is filled with great regex cheatsheets. Here's an easy one to keep on hand for future reference:
 
-<img src='regex_cheat_sheet.png'>
+<img src='images/regex_cheat_sheet.png'>
 
 
 ## Summary
