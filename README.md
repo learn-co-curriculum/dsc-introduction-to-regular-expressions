@@ -32,8 +32,8 @@ Let's take a look at a basic regex pattern, to get a feel for what they look lik
 import re
 sentence = 'he said that she said "hello".'
 pattern = 'he'
-p = re.compile(sentence)
-p.findall() # Output will be ['he', 'he, 'he']
+p = re.compile(pattern)
+p.findall(sentence) # Output will be ['he', 'he, 'he']
 ```
 
 We define a pattern by a Python string. We can then use the regular expressions library, `re`, to compile this pattern. Once we have a compiled pattern, we just need to pass in a string and the pattern will find every instance of that pattern in the string. 
